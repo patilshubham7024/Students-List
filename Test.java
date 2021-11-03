@@ -40,18 +40,22 @@ public class Test {
 
 			switch (option) {
 			case 1:
+				System.out.println("Sorted by ID");
 				Collections.sort(list, new SortById());
 				print(list);
 				break;
 			case 2:
+				System.out.println("Sorted by name");
 				Collections.sort(list, new SortByName());
 				print(list);
 				break;
 			case 3:
+				System.out.println("Sorted by age");
 				Collections.sort(list, new SortByAge());
 				print(list);
 				break;
 			case 4:
+				System.out.println("Sorted by Marks");
 				Collections.sort(list, new SortByMarks());
 				print(list);
 				break;
